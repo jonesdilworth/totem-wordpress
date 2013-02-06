@@ -32,5 +32,13 @@ off comments for the page you embed Totem on.
 
 == Changelog ==
 
+= 0.3 =
+Make changes to appease Wordpress, including (unfortunately) not using CDN-hosted, concatenated,
+minified JavaScript resources, despite best-practice recommendations otherwise.
+
+* Use Wordpress-provided jQuery
+* Include jQuery Postmessage locally
+* Include Press Page JavaScript locally
+
 = 0.2 =
 * First public release
